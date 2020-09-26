@@ -1,1 +1,44 @@
 // Specific CSS for your home-page
+body {
+  font-family: "Oswald", sans-serif;
+}
+.heading-home {
+  text-align: center;
+  margin-top: 20px;
+}
+.action {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.cards {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  justify-content: space-between;
+  align-items: center;
+}
+.card {
+  width: 25%;
+  height: 75%;
+  margin-right: 10px;
+  text-align: center;
+  border: 2px solid #EDB98B;
+  box-shadow: 2px 2px #EDB98B;
+  border-radius: 4px;
+  padding: 10px;
+  & .card-title {
+    font-weight: bold;
+    color: #EDB98B;
+    text-shadow: 1px 1px #CB6B17;
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+}
+.home-card-image {
+		width: 100%;
+		height: 50%;
+		text-align: center;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
